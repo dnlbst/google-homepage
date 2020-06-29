@@ -1,0 +1,59 @@
+body, main, footer{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+.header{
+    display: inline-block;
+    width: 100%;
+    padding: 20px 10px;
+    white-space: nowrap;
+}
+.nav-left{
+    display: inline-block;
+    float: left;
+    padding: 0 10px;
+}
+.nav-right{
+    display: inline-block;
+    float: right;
+    padding: 0 10px;
+}
+.nav-left a:hover, .nav-right a:hover  {
+    text-decoration: underline;
+}
+a{
+    color: inherit;
+    font-size: 13px;
+    text-decoration: inherit;
+    padding: 10px 15px;
+    margin: 10px 2px;
+}
+a.anmelden{
+    background-color: blue;
+    color: white;
+}
+.logo{
+    display: block;
+    margin: 10% 0 auto;
+    text-align: center;
+}
+form{
+    display: block;
+    margin: 10px 20%;
+    padding: 10px 50px;
+    text-align: center;
+    border: 1px solid rgb(192, 187, 187);
+    border-radius: 28px;
+}
+
+form:hover{
+    box-shadow: 0px 0px 2px 1px lightgray;
+}
+input{
+    border: none;
+    margin: 0% 0%;
+    width: 100%;
+}
+input:focus{
+    outline: none;
+}
